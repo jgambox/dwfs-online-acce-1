@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    
+}
+nav{
+    border-bottom:20px solid black;
+
+}
+
+body{
+    font-family:' Calibri', 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+nav li {
+    list-style-type: none;
+
+}
+
+h1,h2 {
+    color: red;
+    text-align: center;
+    font-size: 24px;
+}
+
+p{
+    color: gray;
+    font-size: 16px;
+}
+
+form {
+    border: 15px solid blue;
+    padding: 10px;
+}
+

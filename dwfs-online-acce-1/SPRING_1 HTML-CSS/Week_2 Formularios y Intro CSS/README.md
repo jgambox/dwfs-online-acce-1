@@ -1,2 +1,3 @@
-# Introducción a la web y HTML
-¡Empezamos! Esta semana verás una introducción a la tecnología web y comenzarás a estructurar tu primer sitio web con HTML.
+# Metadatos - Formulario - Intro CSS
+
+En el transcurso de esta semana aprenderás a crear un formulario para tu web y comenzarás a dar estilo a tus sitios.

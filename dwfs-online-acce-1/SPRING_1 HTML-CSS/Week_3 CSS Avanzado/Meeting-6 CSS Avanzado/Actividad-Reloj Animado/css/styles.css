@@ -38,32 +38,26 @@ main {
     z-index: 3;
 }
 
-/* margin vertical horizontal */
-
 .position_center{
-
     position: absolute;
     top: 50%;
     margin: 0 auto;
     background-color: black;
+    /* transform-origin: top center; */
 
     /* transform-origin: x-axis y-axis z-axis|initial|inherit; */
-    /* transform-origin: top center; */
     transform-origin: 0% 0%;
 }
 
 .seconds{
-
     width: 1%;
     height: 32%;
-    left: 49.6%;
-
-    /*   animation: radial_motion 60s linear 0s infinite;  */
-    animation: radial_motion 60s steps(60, end) infinite;;
+    left: 49.6%;    /*   toco centrar manualmente, existe otra forma mas practica? */
+    /*   animation: radial_motion 60s linear 0s infinite;  https://codepen.io/team/css-tricks/pen/bEdKaW */
+    animation: radial_motion 60s steps(60, end) infinite;
 }
 
 .minutes{
-
     width: 2%;
     height: 28%;
     left: 49%;

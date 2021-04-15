@@ -1,2 +1,3 @@
-# Introducción a la web y HTML
-¡Empezamos! Esta semana verás una introducción a la tecnología web y comenzarás a estructurar tu primer sitio web con HTML.
+# Sass y Web responsive
+
+Tu próximo paso es entrar en el mundo de los preprocesadores y las técnicas para que tu web se adapte a todos los dispositivos.
