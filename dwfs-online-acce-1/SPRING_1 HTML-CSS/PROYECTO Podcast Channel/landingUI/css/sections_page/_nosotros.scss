@@ -1,0 +1,105 @@
+.nosotros {
+  display: flex;
+  margin-top: 1%;
+  width: 100%;
+  height: auto;
+
+  @include phone {
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-top: -102px;
+    margin-bottom: 18%;
+
+    .nosotros-img {
+      width: 30rem;
+      height: 51.9rem;
+      z-index: 1;
+    }
+  }
+
+  @include tablets {
+    flex-flow: row wrap;
+    justify-content: center;
+
+    .nosotros-img {
+      margin-top: -30%;
+      width: 42rem;
+      height: 60rem;
+      z-index: 1;
+    }
+  }
+
+  @include desktop {
+    flex-flow: row wrap;
+    justify-content: center;
+
+    .nosotros-img {
+      margin-top: -15%;
+      z-index: 2;
+      width: 45.76rem;
+      height: 66rem;
+    }
+  }
+}
+
+.nosotros-text-container {
+  //width: 100%;
+
+  h2 {
+    width: 100%;
+    @include title_property($font-black-color);
+  }
+
+  p {
+    @include text_content_property;
+  }
+
+  @include phone {
+    h2 {
+      @include typography($mobile-titles-font-size, $mobile-titles-line-height);
+      max-width: 90%;
+      max-height: 1.5%;
+      margin-bottom: 3%;
+      margin-top: 7%;
+      margin-left: 5%;
+    }
+    p {
+      @include typography($mobile-text-font-size, $mobile-text-font-line-height);
+      max-width: 90%;
+      max-height: 4.7%;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
+
+  @include tablets {
+
+    h2 {
+      @include typography($mobile-titles-font-size, $mobile-titles-line-height);
+      margin-bottom: 3%;
+      margin-top: 7%;
+      margin-left: 5%;
+      padding-right: 8%;
+    }
+    p {
+      @include typography($mobile-text-font-size, $mobile-text-font-line-height);
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
+
+  @include desktop {
+    margin-left: 2.3%;
+
+    h2 {
+      @include typography($desktop-section-title-font-size, $desktop-section-title-line-height);
+      max-width: 41rem;
+    }
+    p {
+      max-width: 47rem;
+      margin-top: 5%;
+      @include typography($desktop-text-font-size, $desktop-text-font-line-height);
+      text-align: $font-content-align-justify;
+    }
+  }
+}

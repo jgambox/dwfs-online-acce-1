@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* main styles */
+body,
+html {
+  font-family: "Raleway", sans-serif;
+  color: #4d4d4d;
+  line-height: 1.7em;
+}
+
+a {
+  color: #4d4d4d;
+  text-decoration: none;
+}
+
+h1 {
+  padding-bottom: 20px;
+  font-size: 40px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 25px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+/* contact styles */
+.contact {
+  height: 700px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.contact .box-contact {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+.contact .box-contact i {
+  padding-bottom: 2rem;
+}
+
+/* contact Form styles */
+.features-contact .box-form {
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */

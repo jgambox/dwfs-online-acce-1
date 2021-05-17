@@ -1,0 +1,39 @@
+header {
+    width: 100%;
+    border-bottom: 3px solid $gray;
+    padding: 8px;
+    position: fixed;
+    background-color: $blue;
+}
+
+header h1, 
+header .logo {
+    display: inline-block;
+}
+
+nav{
+    float: right;
+
+    li {
+        display: inline;
+        padding-right: 4px;
+        list-style-type: none;
+    
+
+        &:hover {
+            cursor: pointer;
+            color:honeydew;
+        }
+    }
+    
+    @media (max-width: $mobile_breakpoint) {
+        float: none;
+        text-align: center;
+
+        li {
+            display: inline-block;
+            width: 30%;
+
+        }
+    }
+}

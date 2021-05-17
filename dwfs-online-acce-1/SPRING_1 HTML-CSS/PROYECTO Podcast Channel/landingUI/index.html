@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" manifest="memApp.appcache">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;600&display=swap"
+          rel="stylesheet">
+    <!-- Fonts Awesome -->
+    <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+          integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" rel="stylesheet">
+    <!-- CSS Styles -->
+    <link href="./css/styles.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+
+<!-- MENU DE INICIO -->
+<header>
+    <nav class="nav-container">
+
+        <div class="logo">
+            <img alt="logotipo" src="./assets/logo.svg">
+        </div>
+
+        <input class="menu-check" id="menu" type="checkbox"/>
+
+        <label class="menu-label" for="menu">
+            <i aria-hidden="true" class="fa fa-bars" id="barras"></i>
+        </label>
+
+        <label class="menu-label2" for="menu">
+            <i class="fas fa-times" id="equis"></i>
+        </label>
+
+        <ul class="menu-lista" id="menu-lista">
+            <li><a href="#episodios">episodios</a></li>
+            <li><a href="#nosotros">nosotros</a></li>
+            <li><a href="#invitados">entrevista</a></li>
+            <li><a href="#temas">t&oacute;picos</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- FIN MENU DE INICIO -->
+
+<main>
+    <section class="hellow" id="hellow">
+        <h1>Hello <s>world</s> pale blue dot<span class="dot">.</span></h1>
+        <p>El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los
+            jueves cada 15 díasspan.</p>
+        <button class="hellow-button">CONOC&Eacute; M&Aacute;S</button>
+    </section>
+
+    <section class="episodios" id="episodios">
+        <h2 class="title-episodios">Episodios</h2>
+        <div class="frame-container">
+            <iframe allow="encrypted-media"
+                    src="https://open.spotify.com/embed/episode/7AZZy2nJ4R9ZndHW0h2yxt">
+            </iframe>
+            <iframe allow="encrypted-media"
+                    src="https://open.spotify.com/embed/episode/1ezdL2ivAGLwSE6Xbssxqt">
+            </iframe>
+            <iframe allow="encrypted-media"
+                    src="https://open.spotify.com/embed/episode/3cWta1iiQSfvrdHaCbLkSD">
+            </iframe>
+            <iframe allow="encrypted-media"
+                    src="https://open.spotify.com/embed/episode/31VyAQAwBiKoHVoYUCEzjQ">
+            </iframe>
+        </div>
+    </section>
+
+    <section class="nosotros" id="nosotros">
+        <img alt="telefono" class="nosotros-img" src="./assets/phone.png">
+        <div class="nosotros-text-container">
+            <h2>De d&oacute;nde venimos</h2>
+            <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the
+                Universe, are challenged by this point of pale light.
+                <br>
+                <br>
+                Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this
+                vastness, there is no hint that help will come from elsewhere to save us from ourselves.
+            </p>
+        </div>
+    </section>
+
+    <section class="invitados" id="invitados">
+        <h2>Invitadas/os estelares</h2>
+        <div class="guest-img-container">
+            <img alt="grace hopper" class="item-img" src="./assets/grace-hopper.png">
+            <img alt="katie bouman" class="item-img" src="./assets/Katie-Bouman.png">
+            <img alt="margaret hamilton" class="item-img" src="./assets/Margaret_Hamilton.png">
+            <img alt="e.r.a unavic" class="item-img"
+                 src="./assets/An%20E.R.A.Univac%201103%20computer%20in%20the%201950s.png">
+            <img alt="computers operators" class="item-img"
+                 src="./assets/Computer%20operators%20with%20an%20Eniac%20—%20the%20world’s%20first%20programmable%20general-purpose%20computer.png">
+            <img alt="susan kare" class="item-img" src="./assets/susan-kare.png">
+        </div>
+    </section>
+
+    <section class="temas" id="temas">
+        <h2>Algunos de nuestros temas</h2>
+        <div class="temas-iconos">
+            <div class="item-icon">
+                <img alt="" src="./assets/icon1.svg">
+                <h3>Trabajo remoto</h3>
+            </div>
+            <div class="item-icon">
+                <img alt="" src="./assets/icon2.svg">
+                <h3>Repensando la programaci&oacute;n</h3>
+            </div>
+            <div class="item-icon">
+                <img alt="" src="./assets/icon3.svg">
+                <h3>Bases de c&oacute;digo</h3>
+            </div>
+            <div class="item-icon">
+                <img alt="" src="./assets/icon4.svg">
+                <h3>Seguridad inform&aacute;tica</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="novedades" id="novedades">
+        <h2>¿Querés las últimas novedades?</h2>
+        <button class="novedades-button">ESCUCH&Aacute; LOS EPISODIOS</button>
+    </section>
+</main>
+
+<footer class="foot-social">
+    <div class="social-container">
+        <p>© 2019— Hello blue pale dot</p>
+        <div class="social-icon">
+            <a class="icon-link" href="https://www.spotify.com" target="blank"><i class="fab fa-spotify fa-fw"></i></a>
+            <a class="icon-link" href="http://instagram.com" target="blank"><i class="fab fa-instagram fa-fw"></i></a>
+            <a class="icon-link" href="https://twitter.com" target="blank"><i class="fab fa-twitter fa-fw"></i></a>
+            <a class="icon-link" href="https://www.facebook.com" target="blank"><i
+                    class="fab fa-facebook fa-fw"></i></a>
+            <a class="icon-link" href="https://web.telegram.org" target="blank"><i
+                    class="fab fa-telegram fa-fw"></i></a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

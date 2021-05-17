@@ -1,0 +1,67 @@
+@mixin button_property {
+  background-color: $color-button-normal;
+  text-align: $font-button-align-center;
+  color: $font-black-color;
+  font-family: $main-font-button-family;
+  font-weight: $font-weight-medium-mono;
+  border: none;
+  text-decoration: none;
+
+  &:hover {
+    background-image: $color-button-hover;
+    color: $font-white-color;
+  }
+}
+
+@mixin title_nav {
+  color: $color-text-link-normal-color;
+  font-family: $main-font-text-family;
+  font-weight: $font-weight-light-mono;
+  text-transform: uppercase;
+
+  &:hover {
+    color: $color-text-link-hover-color;
+    text-decoration: $font-nav-link-decoration;
+  }
+  &:active {
+    color: $color-text-link-active-color;
+    text-decoration: $font-nav-link-decoration;
+  }
+}
+
+@mixin text_content_property {
+  color: $font-black-color;
+  text-align: $font-content-align-justify;
+  font-family: $main-font-text-family;
+}
+
+@mixin title_property($colo) {
+  color: $colo;
+  font-family: $main-font-title-family;
+  font-weight: $font-weight-semibold-sans;
+}
+
+@mixin typography($siz, $lheigh) {
+  font: {
+    size: $siz;
+  }
+  line-height: $lheigh;
+}
+
+@mixin phone {
+  @media screen and (max-width: 400px) {
+    @content
+  }
+}
+
+@mixin tablets {
+  @media screen and (min-width: 401px) and (max-width: 768px) {
+    @content
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: 769px) {
+    @content
+  }
+}
