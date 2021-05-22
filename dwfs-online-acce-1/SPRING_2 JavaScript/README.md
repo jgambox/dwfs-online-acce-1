@@ -1,10 +1,10 @@
 ### DESARROLLO WEB FULL STACK - SPRINT 2
 
-## :triangular_flag_on_post: JavaScript
+## :computer:  JavaScript  :computer:
 
 En este Sprint, aprenderás a capturar cada comportamiento que suceda en tu sitio web, de?nir acciones y comunicarte con servicios externos.
 
-##### SEMANA 10 - Fundamentos de Javascript
+##### :open_file_folder: SEMANA 10 - Fundamentos de Javascript
 
 ¡Empezamos! Esta semana comenzarás con Javascript. Aprende lógica de programación, te contaremos qué son las variables y cuáles son los tipos que puedes utilizar.
 
@@ -12,7 +12,7 @@ En este Sprint, aprenderás a capturar cada comportamiento que suceda en tu siti
 
 ###### :heavy_check_mark: MEETING 20 - String - Numbers - Booleanos
 
-##### SEMANA 11 - Estructura de una aplicacion y Arrays
+##### :open_file_folder: SEMANA 11 - Estructura de una aplicacion y Arrays
 
 ¡Es tiempo de pensar como un/a desarrollador/a! Esta semana aprenderás a diagramar tus aplicaciones y el uso de Arrays.
 
@@ -20,10 +20,10 @@ En este Sprint, aprenderás a capturar cada comportamiento que suceda en tu siti
 
 ###### :heavy_check_mark: MEETING 22 Arrays
 
-##### SEMANA 12 - 
-##### SEMANA 13 - 
-##### SEMANA 14 - 
-##### SEMANA 15 - 
-##### SEMANA 16 - 
-##### SEMANA 17 - 
-##### SEMANA 18 - 
+##### :open_file_folder: SEMANA 12 - 
+##### :open_file_folder: SEMANA 13 - 
+##### :open_file_folder: SEMANA 14 - 
+##### :open_file_folder: SEMANA 15 - 
+##### :open_file_folder: SEMANA 16 - 
+##### :open_file_folder: SEMANA 17 - 
+##### :open_file_folder: SEMANA 18 - 
