@@ -1,6 +1,6 @@
 ### DESARROLLO WEB FULL STACK - SPRINT 2
 
-#### JavaScript
+## JavaScript
 
 En este Sprint, aprenderás a capturar cada comportamiento que suceda en tu sitio web, de?nir acciones y comunicarte con servicios externos.
 
