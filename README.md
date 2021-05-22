@@ -1,6 +1,7 @@
-# Desarrollo Web Full Stack
+### Desarrollo Web Full Stack
 
-## Bootcamps Acamica
+#### Bootcamps Acamica
 
+Capacitación en nuevas tecnologías y mejores prácticas en la industria de Front-End como en el Back-End para el desarrollo de aplicaciones y sitios web.
 
-## Link repository https://jgambox.github.io/dwfs-online-acce-1/
+HTML - CSS - SASS - JAVASCRIPT - NODEJS - MONGODB - MySQL - API
