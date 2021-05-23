@@ -1,0 +1,77 @@
+.novedades {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding-bottom: 20%;
+  padding-top: 25%;
+  background-image: $color-blue-gradients-section;
+  clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%);
+  //clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 25%);
+
+  h2 {
+    @include title_property($font-white-color);
+    width: 100%;
+    text-align: $font-button-align-center;
+  }
+
+  .novedades-button {
+    @include button_property;
+  }
+
+  @include phone {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+      @include typography($mobile-titles-font-size, $mobile-titles-line-height);
+      max-width: 28.8rem;
+    }
+
+    .novedades-button {
+      width: 100%;
+      margin-top: 11%;
+      @include typography($mobile-button-font-size, $mobile-button-line-height);
+      width: 28.8rem;
+      height: 4.8rem;
+    }
+  }
+
+  @include tablets {
+    padding-top: 16%;
+    padding-bottom: 13%;
+    flex-flow: column nowrap;
+    align-items: center;
+    //justify-content: center;
+
+    h2 {
+      @include typography($desktop-section-title-font-size, $desktop-section-title-line-height);
+    }
+
+    .novedades-button {
+      margin-top: 3.5%;
+      @include typography($desktop-button-font-size, $desktop-button-line-height);
+      width: 34.5rem;
+      height: 5.6rem;
+    }
+  }
+
+  @include desktop {
+    padding-top: 16%;
+    padding-bottom: 13%;
+    flex-flow: column nowrap;
+    align-items: center;
+    //justify-content: center;
+
+    h2 {
+      @include typography($desktop-section-title-font-size, $desktop-section-title-line-height);
+    }
+
+    .novedades-button {
+      margin-top: 3.5%;
+      @include typography($desktop-button-font-size, $desktop-button-line-height);
+      width: 34.5rem;
+      height: 5.6rem;
+    }
+  }
+}

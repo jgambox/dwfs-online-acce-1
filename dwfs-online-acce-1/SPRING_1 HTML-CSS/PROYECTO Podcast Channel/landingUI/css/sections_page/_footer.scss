@@ -1,0 +1,104 @@
+.foot-social {
+  width: 100%;
+
+  .social-container {
+    display: flex;
+
+    p {
+      @include text_content_property;
+      width: 100%;
+    }
+
+    @include phone {
+      margin-top: 8%;
+      margin-bottom: 10%;
+      flex-direction: column;
+
+      p {
+        @include typography($mobile-footer-title-font-size, $mobile-footer-title-line-height);
+        text-align: center;
+      }
+    }
+
+    @include tablets {
+      margin-top: 6%;
+      margin-bottom: 4%;
+      padding-left: 7%;
+      padding-right: 7%;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      p {
+        @include typography($desktop-footer-title-font-size, $desktop-footer-title-line-height);
+        text-align: center;
+      }
+    }
+
+    @include desktop {
+      margin-top: 2.5%;
+      margin-bottom: 2.15%;
+      padding-left: 7%;
+      padding-right: 7%;
+      flex-direction: row;
+      justify-content: space-between;
+      p {
+        @include typography($desktop-footer-title-font-size, $desktop-footer-title-line-height);
+        //margin-left: 6.9%;
+      }
+    }
+  }
+}
+
+.social-icon {
+  display: flex;
+
+  .icon-link {
+    text-decoration: none;
+    color: $font-black-color;
+  }
+
+  @include phone {
+    justify-content: space-around;
+    .icon-link {
+
+      margin-top: 9%;
+
+      i {
+        font-size: 1.8rem;
+      }
+    }
+  }
+
+  @include tablets {
+    width: 100%;
+    margin-top: 5%;
+    justify-content: center;
+    .icon-link {
+      &:nth-child(5), &:nth-child(4),
+      &:nth-child(3), &:nth-child(2) {
+        margin-left: 3.6rem;
+        //margin-left: 20%;
+      }
+
+      i {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  @include desktop {
+    //margin-right: 7%;
+
+    .icon-link {
+
+      &:nth-child(5), &:nth-child(4),
+      &:nth-child(3), &:nth-child(2) {
+        margin-left: 3.6rem;
+        //margin-left: 20%;
+      }
+
+      i {
+        font-size: 2rem;
+      }
+    }
+  }
+}

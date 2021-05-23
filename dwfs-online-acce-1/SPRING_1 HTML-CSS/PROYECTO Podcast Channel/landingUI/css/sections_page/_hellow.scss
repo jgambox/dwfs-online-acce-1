@@ -1,0 +1,90 @@
+.hellow {
+  height: auto;
+
+  h1 {
+    @include title_property($font-black-color);
+    width: 100%;
+  }
+
+  p {
+    @include text_content_property;
+    width: 100%;
+  }
+
+  .hellow-button {
+    @include button_property;
+  }
+
+  @include phone {
+    margin-left: 5%;
+    margin-bottom: 8%;
+
+    h1 {
+      @include typography($mobile-titles-font-size, $mobile-titles-line-height);
+    }
+
+    p {
+      @include typography($mobile-text-font-size, $mobile-text-font-line-height);
+      max-height: 6.6%;
+      margin-top: 5%;
+    }
+
+    .hellow-button {
+      width: 28.8rem;
+      height: 4.8rem;
+      margin-top: 12%;
+      @include typography($mobile-button-font-size, $mobile-button-line-height);
+    }
+  }
+
+  @include tablets {
+    margin-top: 8.5%;
+    margin-bottom: 1%;
+    margin-left: 13.8%;
+    h1 {
+      @include typography($desktop-titles-font-size, $desktop-titles-line-height);
+
+      .dot {
+        color: #0000FE;
+      }
+    }
+
+    p {
+      @include typography($desktop-text-font-size, $desktop-text-font-line-height);
+      max-width: 63rem;
+      padding-right: 12%;
+    }
+
+    .hellow-button {
+      @include typography($desktop-button-font-size, $desktop-button-line-height);
+      width: 22.6rem;
+      height: 5.6rem;
+      margin-top: 8%;
+    }
+  }
+
+  @include desktop {
+    margin-top: 8.5%;
+    margin-bottom: 1%;
+    margin-left: 13.8%;
+    h1 {
+      @include typography($desktop-titles-font-size, $desktop-titles-line-height);
+
+      .dot {
+        color: #0000FE;
+      }
+    }
+
+    p {
+      @include typography($desktop-text-font-size, $desktop-text-font-line-height);
+      max-width: 63rem;
+    }
+
+    .hellow-button {
+      @include typography($desktop-button-font-size, $desktop-button-line-height);
+      width: 22.6rem;
+      height: 5.6rem;
+      margin-top: 5%;
+    }
+  }
+}

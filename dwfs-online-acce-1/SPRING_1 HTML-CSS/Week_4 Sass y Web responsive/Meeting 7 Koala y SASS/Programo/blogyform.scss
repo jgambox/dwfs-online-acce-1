@@ -1,0 +1,76 @@
+@import'./var_blog_form';
+* {
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    border-bottom: 3px solid $color_blue;
+    padding: 8px;
+    position: fixed;
+    background-color: $color_cornblue;
+}
+
+header h1,
+header .logo {
+    display: inline-block;
+}
+
+nav {
+    float: right;
+    li {
+        list-style-type: none;
+        display: inline;
+        padding-right: 4px;
+        &:hover {
+            cursor: pointer;
+            color: $color_blanchedalmond;
+        }
+    }
+}
+
+body {
+    font-family: $font_family;
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    padding-top: 60px;
+}
+
+.news article {
+    display: inline-block;
+    width: 50%;
+    padding: 4px;
+    vertical-align: top;
+}
+
+h1,
+h2 {
+    color: $color_red;
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    color: $color_grey;
+    font-size: 16px;
+}
+
+form {
+    border: 2px solid $color_black;
+    padding: 5px;
+}
+
+.boton {
+    display: block;
+    width: 150px;
+    height: 30px;
+    padding: 4px 8px;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+    color: $color_black;
+    background-image: radial-gradient($color_yellow, $color_green, $color_yellow);
+}

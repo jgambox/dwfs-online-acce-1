@@ -1,0 +1,114 @@
+// *******************************
+// *********** Colors ************
+// *******************************
+
+// ------- Text Colors -------
+
+$font-black-color: #060A24;
+$font-white-color: #FFFFFF;
+
+// ------- Items Colors (background, buttom, links, etc) -------
+
+// background color
+$main-background-color: #FFFFFF;
+
+// nav mobile expanded
+$mobile-nav-color: #0000EC;
+
+// link colors
+$color-text-link-normal-color: #060A24;
+$color-text-link-hover-color: #00F3BB;
+$color-text-link-active-color: rgba(6, 10, 36, 0.56);
+
+// button colors
+$color-button-normal: #00F3BB;
+$color-button-hover: linear-gradient(to left, #0000FE 0%, #00F0B8 100%);
+
+// novedades y episodios's sections Colors
+$color-blue-gradients-section: linear-gradient(to left, #0000FF 0%, #0000A3 100%);
+
+// ***************************
+// ******* Fonts Texts *******
+// ***************************
+
+$main-font-text-family: 'IBM Plex Mono', monospace;
+$main-font-title-family: 'IBM Plex Sans', sans-serif;
+$main-font-button-family: 'IBM Plex Mono', monospace;
+
+$font-weight-normal: normal;
+$font-weight-light-mono: 400;
+$font-weight-medium-mono: 500;
+
+$font-weight-medium-sans: 400;
+$font-weight-semibold-sans: 600;
+
+$font-button-align-center: center;
+$font-content-align-justify: justify;
+$font-nav-link-decoration: line-through;
+
+// ***************************************************
+// ******* size item values (mobile & desktop) *******
+// ***************************************************
+
+// ------- Desktop ------- //
+
+// NAVBAR ITEM
+
+// Logo
+$desktop-logo-width: 3.6rem;
+$desktop-logo-height: 3.6rem;
+// Nav sub-Title
+$desktop-title-nav-font-size: 1.6rem;
+$desktop-title-nav-line-height: 2.8rem;
+
+// SECTIONS ITEMS
+$desktop-titles-font-size: 6.4rem;
+$desktop-titles-line-height: 8.4rem;
+
+$desktop-text-font-size: 1.6rem;
+$desktop-text-font-line-height: 2.4rem;
+
+$desktop-button-font-size: 1.8rem;
+$desktop-button-line-height: 2.4rem;
+
+$desktop-section-title-font-size: 4.8rem;
+$desktop-section-title-line-height: 6.2rem;
+
+$desktop-icon-title-font-size: 2.4rem;
+$desktop-icon-title-title-line-height: 3.2rem;
+
+$desktop-footer-title-font-size: 1.6rem;
+$desktop-footer-title-line-height: 2.8rem;
+
+// ------- Mobile ------- //
+
+// NAVBAR ITEM
+
+// Logo
+$mobile-logo-width: 3.6rem;
+$mobile-logo-height: 3.6rem;
+// Nav sub-Title
+$mobile-title-nav-font-size: 1.6rem;
+$mobile-title-nav-line-height: 2.8rem;
+
+// SECTIONS ITEM
+$mobile-titles-font-size: 3.6rem;
+$mobile-titles-line-height: 4.2rem;
+
+$mobile-text-font-size: 1.4rem;
+$mobile-text-font-line-height: 2.2rem;
+
+$mobile-button-font-size: 1.6rem;
+$mobile-button-line-height: 2.2rem;
+
+$mobile-section-title-font-size: 3.6rem;
+$mobile-section-title-line-height: 4.2rem;
+
+$mobile-icon-title-font-size: 2.4rem;
+$mobile-icon-title-title-line-height: 3.2rem;
+
+$mobile-footer-title-font-size: 1.4rem;
+$mobile-footer-title-line-height: 2.2rem;
+
+
+

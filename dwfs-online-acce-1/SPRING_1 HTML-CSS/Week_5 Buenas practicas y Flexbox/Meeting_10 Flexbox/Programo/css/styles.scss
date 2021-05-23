@@ -1,0 +1,21 @@
+@import './variables';
+@import "./header";
+@import "./main";
+@import "./aside";
+
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: $font_family;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+}
+

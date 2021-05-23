@@ -1,0 +1,45 @@
+div {
+    border-style: solid;
+}
+
+.container {
+    position: relative;
+    border-style: dashed;
+    height: 800px;
+    width: 800px;
+    overflow: hidden;
+}
+
+.uno {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-color: chartreuse;
+}
+
+.dos {
+    height: 300px;
+    width: 300px;
+    background-color: burlywood;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.tres {
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+    position: absolute;
+    top: 485px;
+    left: 332px;
+}
+
+.cuatro {
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    position: absolute;
+    left: 650px;
+    top: 650px;
+}

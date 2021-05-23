@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+  background: red;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  margin: 5px;
+}
+
+.boxes {
+  height: 50vh;
+  border: 1px solid #000;
+
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+
+  .box:nth-of-type(3){
+    align-self: flex-end;
+  }
+}
