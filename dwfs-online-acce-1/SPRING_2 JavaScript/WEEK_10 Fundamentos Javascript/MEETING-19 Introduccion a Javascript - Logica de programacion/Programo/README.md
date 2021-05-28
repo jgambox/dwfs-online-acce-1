@@ -19,6 +19,8 @@ Solicitar al usuario la cantidad de kilómetros que va a recorrer.
 :interrobang: Dar un aviso al usuario si llegará a recorrer la distancia con un tanque de nafta completa o
 deberá abastecerse de combustible en su trayecto para llegar a su destino
 
+#### :heavy_check_mark: Solucion
+
 Un modelo de automóvil tiene tiene 3 versiones
 
 | Modelo motor | Rendimiento L/KM |
