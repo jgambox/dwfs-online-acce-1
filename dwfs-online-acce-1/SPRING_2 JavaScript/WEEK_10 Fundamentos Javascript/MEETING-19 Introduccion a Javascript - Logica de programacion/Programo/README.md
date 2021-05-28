@@ -21,6 +21,8 @@ deberá abastecerse de combustible en su trayecto para llegar a su destino
 
 #### :heavy_check_mark: Solucion
 
+![](https://github.com/jgambox/dwfs-online-acce-1/blob/master/dwfs-online-acce-1/SPRING_2%20JavaScript/WEEK_10%20Fundamentos%20Javascript/MEETING-19%20Introduccion%20a%20Javascript%20-%20Logica%20de%20programacion/Programo/asset/ex2.1-carro.png)
+
 Un modelo de automóvil tiene tiene 3 versiones
 
 | Modelo motor | Rendimiento L/KM |
