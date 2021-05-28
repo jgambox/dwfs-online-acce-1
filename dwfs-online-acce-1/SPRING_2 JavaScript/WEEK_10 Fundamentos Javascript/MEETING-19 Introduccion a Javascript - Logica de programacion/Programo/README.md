@@ -4,7 +4,7 @@
 
 Solicita al usuario que ingrese 2 números y muestra el resultado de la suma
 
-#### :pushpin: ¿Llega? - ¿Cuántos tanques de nafta?
+#### :pushpin: ¿Llega? - ¿Cuántos tanques de nafta? :heavy_exclamation_mark:
 
 Un automóvil tiene un consumo de combustible de 15 kilómetros por litro.
 
@@ -12,7 +12,7 @@ Su tanque de nafta puede almacenar 45 litros de combustible.
 
 Solicitar al usuario la cantidad de kilómetros que va a recorrer.
 
-Dar un aviso al usuario si llegará a recorrer la distancia con un tanque de nafta completa o
+:interrobang: Dar un aviso al usuario si llegará a recorrer la distancia con un tanque de nafta completa o
 deberá abastecerse de combustible en su trayecto para llegar a su destino
 
 Un modelo de automóvil tiene tiene 3 versiones
@@ -25,8 +25,25 @@ Un modelo de automóvil tiene tiene 3 versiones
 
 El tanque de nafta es igual para todos los modelos y la carga máxima es de 50 litros.
 
-Preguntarle al usuario que modelo esta usando y la cantidad de kilómetros que va a realizar.
+:interrobang: Preguntarle al usuario que modelo esta usando y la cantidad de kilómetros que va a realizar.
 
-##### :pushpin: Indicarle cuántos tanques de nafta completos necesita para realizar el recorrido.
+##### :interrobang: Indicarle cuántos tanques de nafta completos necesita para realizar el recorrido.
 
-#### Dial de radio - Transferencia bancaria
+#### :pushpin: Dial de radio - Transferencia bancaria :heavy_exclamation_mark:
+
+Crea un algoritmo que valida que una radio exista. Pide al usuario que ingrese un dial y valida la
+existencia de la radio con las siguientes condiciones:
+
+- El dial debe ser impar
+- El dial debe ser mayor o igual a 89.9
+- El dial debe ser menor a 107.9
+
+Transferencia bancaria
+
+El usuario quiere transferir dinero a otro usuario. Solicita al usuario source la cantidad de dinero que
+quiere transferir y a quién desea hacerlo. Tu aplicación debe validar:
+
+- Que tenga fondos para enviar dinero
+- Que el destinatario exista 
+ 
+Si las validaciones pasan correctamente muestra un mensaje de “Transacción exitosa”
