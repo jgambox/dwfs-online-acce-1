@@ -40,8 +40,9 @@ existencia de la radio con las siguientes condiciones:
 
 Transferencia bancaria
 
-El usuario quiere transferir dinero a otro usuario. Solicita al usuario source la cantidad de dinero que
-quiere transferir y a quién desea hacerlo. Tu aplicación debe validar:
+El usuario quiere transferir dinero a otro usuario. 
+
+:interrobang: Solicita al usuario source la cantidad de dinero que quiere transferir y a quién desea hacerlo. Tu aplicación debe validar:
 
 - Que tenga fondos para enviar dinero
 - Que el destinatario exista 
