@@ -1,10 +1,10 @@
-### Algoritmos
+## Algoritmos
 
-#### :pushpin: Suma
+### :pushpin: Suma
 
 Solicita al usuario que ingrese 2 números y muestra el resultado de la suma
 
-#### :pushpin: ¿Llega? - ¿Cuántos tanques de nafta? :heavy_exclamation_mark:
+### :pushpin: ¿Llega? - ¿Cuántos tanques de nafta? :heavy_exclamation_mark:
 
 Un automóvil tiene un consumo de combustible de 15 kilómetros por litro.
 
@@ -29,7 +29,10 @@ El tanque de nafta es igual para todos los modelos y la carga máxima es de 50 l
 
 :interrobang: Indicarle cuántos tanques de nafta completos necesita para realizar el recorrido.
 
-#### :pushpin: Dial de radio - Transferencia bancaria :heavy_exclamation_mark:
+#### :heavy_check_mark: Solucion 
+
+
+### :pushpin: Dial de radio - Transferencia bancaria :heavy_exclamation_mark:
 
 Crea un algoritmo que valida que una radio exista. Pide al usuario que ingrese un dial y valida la
 existencia de la radio con las siguientes condiciones:
@@ -48,3 +51,5 @@ El usuario quiere transferir dinero a otro usuario.
 - Que el destinatario exista 
  
 Si las validaciones pasan correctamente muestra un mensaje de “Transacción exitosa”
+
+#### :heavy_check_mark: Solucion 
