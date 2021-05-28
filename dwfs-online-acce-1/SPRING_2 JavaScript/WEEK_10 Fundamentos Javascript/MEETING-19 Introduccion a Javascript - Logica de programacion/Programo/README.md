@@ -6,7 +6,7 @@
 
 #### :heavy_check_mark: Solucion
 
-
+![]()
 
 ### :pushpin: ¿Llega? - ¿Cuántos tanques de nafta? :heavy_exclamation_mark:
 
