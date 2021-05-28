@@ -27,7 +27,7 @@ El tanque de nafta es igual para todos los modelos y la carga máxima es de 50 l
 
 :interrobang: Preguntarle al usuario que modelo esta usando y la cantidad de kilómetros que va a realizar.
 
-##### :interrobang: Indicarle cuántos tanques de nafta completos necesita para realizar el recorrido.
+:interrobang: Indicarle cuántos tanques de nafta completos necesita para realizar el recorrido.
 
 #### :pushpin: Dial de radio - Transferencia bancaria :heavy_exclamation_mark:
 
