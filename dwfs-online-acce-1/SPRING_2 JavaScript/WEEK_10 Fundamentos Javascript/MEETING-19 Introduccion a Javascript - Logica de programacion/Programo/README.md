@@ -39,6 +39,7 @@ El tanque de nafta es igual para todos los modelos y la carga máxima es de 50 l
 
 #### :heavy_check_mark: Solucion 
 
+![](https://github.com/jgambox/dwfs-online-acce-1/blob/master/dwfs-online-acce-1/SPRING_2%20JavaScript/WEEK_10%20Fundamentos%20Javascript/MEETING-19%20Introduccion%20a%20Javascript%20-%20Logica%20de%20programacion/Programo/asset/ex.2.2-carro.png)
 
 ### :pushpin: Dial de radio - Transferencia bancaria :heavy_exclamation_mark:
 
