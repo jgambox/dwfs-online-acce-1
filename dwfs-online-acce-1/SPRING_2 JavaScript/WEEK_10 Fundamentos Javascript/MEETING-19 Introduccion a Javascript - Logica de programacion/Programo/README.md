@@ -67,3 +67,5 @@ El usuario quiere transferir dinero a otro usuario.
 Si las validaciones pasan correctamente muestra un mensaje de “Transacción exitosa”
 
 #### :heavy_check_mark: Solucion 
+
+![](https://github.com/jgambox/dwfs-online-acce-1/blob/master/dwfs-online-acce-1/SPRING_2%20JavaScript/WEEK_10%20Fundamentos%20Javascript/MEETING-19%20Introduccion%20a%20Javascript%20-%20Logica%20de%20programacion/Programo/asset/ex3.2.png)
