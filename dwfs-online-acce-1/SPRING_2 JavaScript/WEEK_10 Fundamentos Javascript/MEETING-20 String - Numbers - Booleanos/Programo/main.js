@@ -92,6 +92,35 @@ function ejercicio22() {
     }
 }
 
-function ejercicio3() {
+function ejercicio31() {
+    let dial_number = prompt("insert Dial");
+    dial_number = parseInt(dial_number);
+
+    if (dial_number % 2) {
+        if (dial_number >= 89.9 && dial_number < 107.9) {
+            alert("Dial valido")
+        } else {
+            alert("Dial Invalido")
+        }
+    } else {
+        alert("Dial Invalido")
+    }
+}
+
+function ejercicio32() {
+
+    let cuenta_usuario = "juan555";
+    let fondos_cuenta = 10000;
+    let monto_dinero = prompt("ingresar monto dinero");
+    let cuenta_destino = prompt("digite cuenta de destino");
+
+    console.log("monto dinero: " + monto_dinero);
+    console.log("cuenta destino: " + cuenta_destino);
+
+    if ((parseInt(monto_dinero) <= fondos_cuenta) && (cuenta_destino === cuenta_usuario)) {
+        alert("transaccion EXITOSA");
+    } else {
+        alert("Error transaccion NO EXITOSA");
+    }
 
 }
