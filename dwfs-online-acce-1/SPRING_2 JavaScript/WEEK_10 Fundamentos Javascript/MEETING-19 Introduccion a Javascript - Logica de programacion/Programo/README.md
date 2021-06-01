@@ -43,8 +43,9 @@ El tanque de nafta es igual para todos los modelos y la carga máxima es de 50 l
 
 ### :pushpin: Dial de radio - Transferencia bancaria :heavy_exclamation_mark:
 
-Crea un algoritmo que valida que una radio exista. Pide al usuario que ingrese un dial y valida la
-existencia de la radio con las siguientes condiciones:
+Crea un algoritmo que valida que una radio exista. 
+
+:interrobang: Pide al usuario que ingrese un dial y valida la existencia de la radio con las siguientes condiciones:
 
 - El dial debe ser impar
 - El dial debe ser mayor o igual a 89.9
