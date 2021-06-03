@@ -115,13 +115,3 @@ const abc_value = number_to_leter[input_value] || mensaje_error;
 console.log("valor equivalente: " + abc_value);
 
 alert("Valor equivalente del numero: " + input_value + " es: " + abc_value);
-
-
-
-
-
-
-
-
-
-
