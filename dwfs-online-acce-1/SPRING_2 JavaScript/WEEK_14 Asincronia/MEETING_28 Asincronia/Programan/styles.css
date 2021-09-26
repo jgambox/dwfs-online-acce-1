@@ -1,0 +1,28 @@
+body {
+    font-family: "Poppins";
+    height: 100vh;
+    color: #4b72a6;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 350px;
+
+    padding: 1rem;
+    border: 1px solid #572ee5;
+    margin: 10px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    font-size: 1.5rem;
+}

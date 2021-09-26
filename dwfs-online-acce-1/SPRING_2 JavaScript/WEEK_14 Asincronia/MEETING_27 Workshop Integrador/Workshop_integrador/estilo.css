@@ -1,0 +1,38 @@
+body{
+    margin: 50px;
+}
+.producto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.imgProducto{
+    width: 40%;
+    height: auto;
+}
+.caja{
+    border: 2px solid black;
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.caja h3, p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.precio{
+    font-weight: bold;
+}
+
+button{
+    width: 60%;
+    height: 30px;
+    background-color: cornflowerblue;
+    color: cornsilk;
+    font-weight: bold;
+    margin-left: 80px;
+}
